@@ -8,7 +8,23 @@ ul {
 ul a {
     width: 200px;
     height: 40px;
+    text-indent: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #000;
     display: block;
-    border: 1px solid red;
     background: url(imagens/menu.png) no-repeat left bottom;
+}
+
+a:hover {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#home .home a, 
+#sobre .sobre a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
 }
