@@ -23,7 +23,9 @@ a:hover {
 }
 
 #home .home a, 
-#sobre .sobre a {
+#sobre .sobre a 
+#servicos .servicos a
+#contato .contato a {
     background-position: right bottom;
     background-color: #f99200;
     color: #fff;
