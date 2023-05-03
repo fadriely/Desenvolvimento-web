@@ -41,7 +41,6 @@ ul {
 }
 
 ul li {
-    border: 1px solid red;
     float: left;
 }
 
@@ -51,5 +50,11 @@ ul a {
     line-height: 2em;
     text-decoration: none;
     color: #fff;
-    background: url(imagens/divisor.png) repeat-y;
+    background: url(imagens/divisor.png) repeat-y left top;
+    /*faz com que a imagem repita no canto direito apartir do topo */
+}
+
+ul a:hover{
+    color: #085662;
+    background: #44cade;    
 }
