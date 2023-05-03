@@ -2,9 +2,11 @@
     background-color: rgb(105, 70, 138);
     width: 50%;
     border-radius: 20%;
+    text-align: center;
 
 }
 
 .form {
     text-align: center;
+    padding-bottom: 20px;
 }
