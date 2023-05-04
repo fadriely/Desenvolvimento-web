@@ -7,6 +7,7 @@ body {
     width: 85%; /*720px */
     margin: 0 auto;
     background: #fff;
+    min-width: 720px;
 }
 
 .marca {
