@@ -4,37 +4,44 @@ body {
 }
 
 #container {
-    width: 720px;
+    width: 85%; /*720px */
     margin: 0 auto;
     background: #fff;
 }
 
 .marca {
-    height: 100px;
+    height: 100%;
     background: gray;
     text-align: center;
-    line-height: 100px;
+    line-height: 300%;
 }
 
 .conteudo {
-    width: 520px;
+    width: 75%;
     float: right;
 }
 
 .conteudo-principal {
     float: left;
-    width: 320px;
+    width: 63%;
+    /* 180px */
 }
 
 .conteudo-secundario {
     float: right;
-    width: 180px;
+    width: 34%;
     background: #d1d1d1;
-} 
+}
 
+
+.conteudo-secundario h2,
+.conteudo-secundario p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .navegacao {
-    width: 180px;
+    width: 23%;
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
