@@ -1,0 +1,36 @@
+.information {
+    width: 25%;
+    height: 15%;
+}
+
+.calendario {
+    width: 25%;
+    height: 15%;
+}
+
+.feeds {
+    width: 15%;
+    height: 10%;
+}
+
+.galery {
+    width: 15%;
+    height: 10%;
+}
+
+.rodape {
+    background: rgb(80, 79, 79);
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    background: rgb(45, 45, 255);
+    color: aliceblue;
+}
