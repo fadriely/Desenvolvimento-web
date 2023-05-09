@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .horario {
     background: rgb(45, 45, 255);
     color: white;
@@ -29,7 +30,7 @@
     display: flex;
 }
 
-.information, .calendario  {
+.information, .calendario {
     margin-right: 50px;
     margin-top: 50px;
     width: 200px;
@@ -37,7 +38,12 @@
 
 }
 
-
+.coluna1, .coluna2 {
+    margin-top: 50px;
+    width: 20%;
+    height: 50%;
+    background: rgb(180, 178, 178);
+}
 
 /* .information {
     width: 30%;
