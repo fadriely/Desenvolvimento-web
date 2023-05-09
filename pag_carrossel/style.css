@@ -1,6 +1,50 @@
-.information {
-    width: 25%;
-    height: 15%;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.horario {
+    background: rgb(45, 45, 255);
+    color: white;
+    padding-right: 150px;
+    text-align: center;
+
+}
+
+.cabecalho {
+    background: rgb(45, 45, 255);
+    margin-top: 40px;
+}
+
+/* .wrapper {
+    display: grid;
+    grid-template-columns: 200px 200px;
+} */
+
+.linha1 {
+    display: flex;
+}
+
+.linha2 {
+    display: flex;
+}
+
+.information, .calendario  {
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 200px;
+    background: rgb(180, 178, 178);
+
+}
+
+
+
+/* .information {
+    width: 30%;
+    height: 25%;
+    clear: both;
+    background: rgb(180, 178, 178);
+
 }
 
 .calendario {
@@ -8,29 +52,59 @@
     height: 15%;
 }
 
-.feeds {
+.feeds, .galery {
     width: 15%;
     height: 10%;
+    float: right;
+    clear: both;
 }
 
 .galery {
     width: 15%;
     height: 10%;
+    background: rgb(180, 178, 178);
 }
 
-.rodape {
-    background: rgb(80, 79, 79);
+.feeds {
+    background: rgb(48, 46, 46);
+} */
+
+
+
+.rodape h6 {
+    background: rgb(48, 46, 46);
+    color: white;
+    clear: both;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+ul {
+    width: 100%;
+}
+
+ul li {
+    float: right;
+    padding-right: 40px;
+    list-style: none
 }
 
 h2 {
     font-family: Verdana, sans-serif;
 }
 
-a {
+h3 {
+    background: rgb(182, 178, 178);
+    width: 25%;
+} */
+
+/* a {
     text-decoration: none;
-}
+} */
 
 p {
     background: rgb(45, 45, 255);
     color: aliceblue;
+    text-align: center;
 }
