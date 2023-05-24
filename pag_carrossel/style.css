@@ -1,51 +1,64 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+ body {
+     padding: 0%;
+     margin: 0%;
+ }
 
 
-.horario {
-    background: rgb(45, 45, 255);
-    color: white;
-    padding-right: 150px;
-    text-align: center;
 
-}
+ .horario {
+     background: rgb(45, 45, 255);
+     color: white;
+     padding-right: 150px;
+     text-align: center;
+ }
 
-.cabecalho {
-    background: rgb(45, 45, 255);
-    margin-top: 40px;
-}
+ #carouselExampleControls {
+     width: 50% !important;
+ }
 
-/* .wrapper {
+ .carrossel {
+     width: 50% !important;
+ }
+
+ .carroussels {
+     display: flex;
+ }
+
+
+ .cabecalho {
+     background: rgb(45, 45, 255);
+     margin-top: 40px;
+ }
+
+ /* .wrapper {
     display: grid;
     grid-template-columns: 200px 200px;
 } */
 
-.linha1 {
-    display: flex;
-}
+ .linha1 {
+     display: flex;
+ }
 
-.linha2 {
-    display: flex;
-}
+ .linha2 {
+     display: flex;
+ }
 
-.information, .calendario {
-    margin-right: 50px;
-    margin-top: 50px;
-    width: 200px;
-    background: rgb(180, 178, 178);
+ .information, .calendario {
+     margin-right: 50px;
+     margin-top: 50px;
+     width: 200px;
+     background: rgb(180, 178, 178);
 
-}
+ }
 
-.coluna1, .coluna2 {
-    margin-top: 50px;
-    width: 20%;
-    height: 50%;
-    background: rgb(180, 178, 178);
-}
+ .coluna1, .coluna2 {
+     margin-top: 50px;
+     width: 20%;
+     height: 50%;
+     background: rgb(180, 178, 178);
+ }
 
-/* .information {
+ /* .information {
     width: 30%;
     height: 25%;
     clear: both;
@@ -77,15 +90,15 @@
 
 
 
-.rodape h6 {
-    background: rgb(48, 46, 46);
-    color: white;
-    clear: both;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
+ .rodape h6 {
+     background: rgb(48, 46, 46);
+     color: white;
+     clear: both;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+ }
 
-/* 
+ /* 
 ul {
     width: 100%;
 }
@@ -105,12 +118,12 @@ h3 {
     width: 25%;
 } */
 
-/* a {
+ /* a {
     text-decoration: none;
 } */
 
-p {
-    background: rgb(45, 45, 255);
-    color: aliceblue;
-    text-align: center;
-}
+ p {
+     background: rgb(45, 45, 255);
+     color: aliceblue;
+     text-align: center;
+ }
