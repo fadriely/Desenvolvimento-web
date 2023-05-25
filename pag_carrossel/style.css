@@ -1,129 +1,113 @@
- body {
-     padding: 0%;
-     margin: 0%;
- }
+* {
+    padding: 0%;
+    margin: 0%;
+}
 
+.horarios {
+    background: rgb(45, 45, 255);
+    color: white;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 0;
+}
 
+.horarios li {
+    display: inline;
+    padding-left: 5%;
+}
 
- .horario {
-     background: rgb(45, 45, 255);
-     color: white;
-     padding-right: 150px;
-     text-align: center;
- }
+#carouselExampleControls, .carrossel {
+    width: 50% !important;
+}
 
- #carouselExampleControls {
-     width: 50% !important;
- }
+.carroussels {
+    display: flex;
+}
 
- .carrossel {
-     width: 50% !important;
- }
+.linha1, .linha2 {
+    display: flex;
+    justify-content: center;
+}
 
- .carroussels {
-     display: flex;
- }
+/* conteiners largos */
 
-
- .cabecalho {
-     background: rgb(45, 45, 255);
-     margin-top: 40px;
- }
-
- /* .wrapper {
-    display: grid;
-    grid-template-columns: 200px 200px;
-} */
-
- .linha1 {
-     display: flex;
- }
-
- .linha2 {
-     display: flex;
- }
-
- .information, .calendario {
-     margin-right: 50px;
-     margin-top: 50px;
-     width: 200px;
-     background: rgb(180, 178, 178);
-
- }
-
- .coluna1, .coluna2 {
-     margin-top: 50px;
-     width: 20%;
-     height: 50%;
-     background: rgb(180, 178, 178);
- }
-
- /* .information {
-    width: 30%;
-    height: 25%;
-    clear: both;
+.information, .calendario {
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 50%;
+    height: 20%;
     background: rgb(180, 178, 178);
-
 }
 
-.calendario {
-    width: 25%;
-    height: 15%;
+.coluna1 {
+    margin-top: 50px;
+    width: 35%;
+    height: 50%;
+    background: rgb(180, 178, 178);
 }
 
-.feeds, .galery {
-    width: 15%;
-    height: 10%;
-    float: right;
-    clear: both;
-}
+/* imagem da galeria */
 
 .galery {
-    width: 15%;
-    height: 10%;
-    background: rgb(180, 178, 178);
+    width: 100%;
+    height: 100%;
 }
+
 
 .feeds {
     background: rgb(48, 46, 46);
-} */
+}
 
-
-
- .rodape h6 {
-     background: rgb(48, 46, 46);
-     color: white;
-     clear: both;
-     text-align: center;
-     font-family: Arial, Helvetica, sans-serif;
- }
-
- /* 
-ul {
+.cabecalho li {
+    display: inline;
+    background: rgb(45, 45, 255);
+    color: white;
     width: 100%;
+    margin-top: 40px;
+    padding-right: 5%;
+    text-decoration: none;
+    list-style: none;
 }
 
-ul li {
-    float: right;
-    padding-right: 40px;
-    list-style: none
+
+.links li {
+    list-style: none;
+    text-decoration: none;
+    background: white;
+    padding-right: 5%;
+    display: inline;
+    margin-bottom: 0;
 }
 
+/*
 h2 {
     font-family: Verdana, sans-serif;
 }
 
-h3 {
-    background: rgb(182, 178, 178);
-    width: 25%;
-} */
 
- /* a {
+/* a {
     text-decoration: none;
 } */
 
- p {
-     background: rgb(45, 45, 255);
-     color: aliceblue;
-     text-align: center;
- }
+
+h4, h5 {
+    padding-left: 5%;
+    font-family: Verdana, sans-serif;
+
+}
+
+p {
+    background: rgb(45, 45, 255);
+    color: aliceblue;
+    text-align: center;
+}
+
+.rodape h6 {
+    background: rgb(48, 46, 46);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
