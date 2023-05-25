@@ -5,7 +5,6 @@
 
 .horarios {
     background: rgb(45, 45, 255);
-    color: white;
     text-align: center;
     list-style: none;
     text-decoration: none;
@@ -59,7 +58,7 @@
     background: rgb(48, 46, 46);
 }
 
-.cabecalho li {
+.cabecalho, li {
     display: inline;
     background: rgb(45, 45, 255);
     color: white;
@@ -71,18 +70,14 @@
 }
 
 
-.links li {
+.links {
+    background: blue;
     list-style: none;
     text-decoration: none;
-    background: white;
+    color: white;
     padding-right: 5%;
     display: inline;
     margin-bottom: 0;
-}
-
-/*
-h2 {
-    font-family: Verdana, sans-serif;
 }
 
 
