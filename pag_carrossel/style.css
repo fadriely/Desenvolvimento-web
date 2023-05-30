@@ -3,6 +3,11 @@
     margin: 0%;
 }
 
+.icones {}
+
+.lista {
+    padding: 0px !important;
+}
 
 .horarios {
     background: rgb(45, 45, 255);
@@ -40,7 +45,12 @@
 .cabecalho {
     background: rgb(45, 45, 255);
     margin-top: 0px;
-    /* padding-right: 5%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+        /* padding-right: 5%; */
 }
 
 
