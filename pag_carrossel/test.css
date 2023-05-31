@@ -11,7 +11,7 @@
     background: rgb(45, 45, 255);
     text-align: center;
     margin-bottom: 0;
-    min-width: 420px;
+    min-width: 320px;
 }
 
 /* .horarios li {
@@ -96,26 +96,44 @@
 /* icone grade  */
 
 
-.linha1, .linha2 {
+
+/* segundo container */
+
+.conteiner2 {
     display: flex;
-    justify-content: center;
-    height: 50%;
+    min-width: 320px;
 }
 
+/* Primeira coluna - largos */
 
-/* conteiners largos */
-.information, .calendario {
+
+.information {
+    min-width: 320px;
+    margin: auto;
+    /* margin-left: 40%; */
     padding-bottom: 10%;
-    margin-right: 50px;
     margin-top: 50px;
     width: 50%;
-    height: 50%;
-    background:#d8d5d4;
+    height: 40%;
+    background: #d8d5d4;
 }
 
+/* Segunda coluna - pequenos */
 
+.linha2 {
+    text-align: center;
+    min-width: 320px;
+    /* margin: auto; */
+    margin-top: 50px;
+    width: 40%;
+    height: 40%;
+    background: #d8d5d4;
+}
+
+/* 
 .coluna1 {
-    text-align: center; /* centralização da imagem */
+    text-align: center;
+    centralização da imagem 
     margin-top: 50px;
     margin-right: 5%;
     width: 20%;
@@ -131,12 +149,13 @@
     width: 200px;
     height: 50%;
     margin-bottom: 5%;
-} 
+}
+
 
 /* galeria e feed*/
 
 
-.rodape h6 {
+.rodape {
     background: rgb(48, 46, 46);
     color: white;
     text-align: center;
