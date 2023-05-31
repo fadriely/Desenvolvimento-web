@@ -49,6 +49,7 @@
 }
 
 .cabecalho {
+    padding-top: 5px;
     background: rgb(45, 45, 255);
     color: white;
     margin-top: 0px;
@@ -95,43 +96,43 @@
 /* icone grade  */
 
 
-
 .linha1, .linha2 {
     display: flex;
     justify-content: center;
     height: 50%;
 }
 
-/* conteiners largos */
 
+/* conteiners largos */
 .information, .calendario {
     padding-bottom: 10%;
     margin-right: 50px;
     margin-top: 50px;
     width: 50%;
     height: 50%;
-    background: rgb(180, 178, 178);
+    background:#d8d5d4;
 }
 
 
 .coluna1 {
-    /* centralização da imagem */
-    text-align: center;
+    text-align: center; /* centralização da imagem */
     margin-top: 50px;
     margin-right: 5%;
     width: 20%;
-    background: rgb(180, 178, 178);
+    background: #d8d5d4;
 }
 
-/* imagem da galeria */
+/* galeria e feed*/
 .feeds {
     background: rgb(48, 46, 46);
 }
 
 .galery {
-    width: 50%;
+    width: 200px;
     height: 50%;
-}
+    margin-bottom: 5%;
+} 
+/* galeria e feed*/
 
 
 .rodape h6 {
@@ -155,13 +156,24 @@ li {
 }
 
 p {
-    background: rgb(45, 45, 255);
+    background: #146de0;
     color: aliceblue;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 }
 
 h4, h5 {
     padding-left: 5%;
     font-family: Verdana, sans-serif;
+}
 
+.cor {
+    color: gray;
+    font-size: 15px;
+}
+
+.texto {
+    background: #d8d5d4;
+    color: black;
+    font-size: 16px;
 }
