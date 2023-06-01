@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="coluna1">
+            <div class="information">
+              <p>information 1</p>
+              <p class="texto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, integer possuare erate a ante.
+              </p>
+              <h5 class="cor">-someane famous in sorce title</h5>
+            </div>
+          </div>
+          <div class="coluna1">
+            <div class="information">
+              <p>calendario</p>
+              <h4>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </h4>
+              <h5 class="cor">-sometimes by accident, sometimes on title</h5>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="coluna2">
+            <div class="linha2">
+              <p class="feeds">feeds</p>
+              <h4>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, integer posuere erat a ante.
+                <h5 class="cor">-eiusmod tempor incididunt uti</h5>
+              </h4>
+            </div>
+          </div>
+          <div class="coluna2">
+            <div class="linha2">
+              <p class="feeds">galery</p>
+              <img class="galery" src="imagens/primeira.avif" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <style>
+        .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  flex: 1 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.information,
+.calendario {
+  flex: 1 1 100%;
+}
+
+.feeds {
+  flex: 1 1 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .row {
+    flex: 1 1 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .row {
+    flex: 1 1 33.33%;
+  }
+}
+
+      </style>
+      
+</body>
+</html>

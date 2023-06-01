@@ -59,6 +59,10 @@
     flex-wrap: wrap;
 }
 
+.conteiner2 {
+    display: flex;
+}
+
 
 /* icone grade  */
 .gg-microsoft {
