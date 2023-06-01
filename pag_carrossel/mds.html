@@ -22,9 +22,9 @@
           <div class="coluna1">
             <div class="information">
               <p>calendario</p>
-              <h4>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </h4>
+              <p class="texto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua 
+              </p>
               <h5 class="cor">-sometimes by accident, sometimes on title</h5>
             </div>
           </div>
@@ -43,7 +43,8 @@
           <div class="coluna2">
             <div class="linha2">
               <p class="feeds">galery</p>
-              <img class="galery" src="imagens/primeira.avif" alt="" />
+              <div class="imagem"> <img class="galery" src="imagens/primeira.avif" alt="" /> </div>
+              
             </div>
           </div>
         </div>
@@ -64,10 +65,20 @@
 .information,
 .calendario {
   flex: 1 1 100%;
+  /* min-width: 320px; */
+    /* margin: auto; */
+    /* margin-left: 40%; */
+    /* padding-bottom: 10%; */
+    /* margin-top: 50px; */
+    /* width: 50%; */
+    /* height: 40%; */
+    background: #d8d5d4;
 }
 
 .feeds {
   flex: 1 1 100%;
+  background: rgb(48, 46, 46);
+
 }
 
 @media screen and (min-width: 768px) {
@@ -81,6 +92,7 @@
     flex: 1 1 33.33%;
   }
 }
+
 
       </style>
       

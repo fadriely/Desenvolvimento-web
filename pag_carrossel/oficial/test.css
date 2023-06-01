@@ -11,7 +11,7 @@
     background: rgb(45, 45, 255);
     text-align: center;
     margin-bottom: 0;
-    min-width: 320px;
+    min-width: 220px;
 }
 
 /* .horarios li {
@@ -53,14 +53,11 @@
     background: rgb(45, 45, 255);
     color: white;
     margin-top: 0px;
+    /* margin-bottom: 5%; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.conteiner2 {
-    display: flex;
 }
 
 
@@ -68,6 +65,7 @@
 .gg-microsoft {
     margin: 5px;
     color: rgb(42, 42, 250);
+    max-width: 647;
 }
 
 .gg-microsoft {
@@ -100,24 +98,29 @@
 /* icone grade  */
 
 
-
 /* segundo container */
 
-.conteiner2 {
-    display: flex;
-    min-width: 320px;
-}
 
 /* Primeira coluna - largos */
 
+.conteiner2 {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.coluna1, .coluna2 {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
 
 .information {
-    min-width: 320px;
-    margin: auto;
-    /* margin-left: 40%; */
-    padding-bottom: 10%;
-    margin-top: 50px;
-    width: 50%;
+    /* min-width: 320px; */
+    /* margin-left: 25%; */
+    /* padding-bottom: 10%; */
+    /* margin-top: 50px; */
+    width: 70%;
     height: 40%;
     background: #d8d5d4;
 }
@@ -125,22 +128,12 @@
 /* Segunda coluna - pequenos */
 
 .linha2 {
-    text-align: center;
-    min-width: 320px;
+    /* min-width: 320px; */
     /* margin: auto; */
-    margin-top: 50px;
-    width: 40%;
-    height: 40%;
-    background: #d8d5d4;
-}
-
-/* 
-.coluna1 {
-    text-align: center;
-    centralização da imagem 
-    margin-top: 50px;
-    margin-right: 5%;
-    width: 20%;
+    /* margin-top: 50px; */
+    /* margin-left: 100px;   ------ teste ------ */
+    width: 250px;
+    height: 40%;   /*------ teste ------*/
     background: #d8d5d4;
 }
 
@@ -149,10 +142,14 @@
     background: rgb(48, 46, 46);
 }
 
+.imagem {
+    text-align: center;
+    height: 100%;
+}
+
 .galery {
     width: 200px;
     height: 50%;
-    margin-bottom: 5%;
 }
 
 
@@ -186,18 +183,31 @@ p {
     padding-left: 10px;
 }
 
-h4, h5 {
+.color {
     padding-left: 5%;
-    font-family: Verdana, sans-serif;
-}
-
-.cor {
     color: gray;
     font-size: 15px;
 }
 
 .texto {
+    padding-left: 5%;
     background: #d8d5d4;
     color: black;
-    font-size: 16px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 650px) {
+
+    .conteiner2 {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .coluna1, .coluna2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
