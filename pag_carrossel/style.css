@@ -13,9 +13,9 @@ body{
 
 .horarios {
     background: rgb(45, 45, 255);
-    text-align: center;
+     text-align: center;
     margin-bottom: 0;
-    min-width: 220px;
+    /* min-width: 220px; */
 }
 
 /* .horarios li {
@@ -43,22 +43,22 @@ body{
 
 .testeando {
     background: 0;
-    font-size: 15px;
+    font-size: 10px;
     padding: 0;
 }
 
 .links {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    margin-top: 0%;
+    margin-top: 0%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
-.link {
-    display: flex;
-    justify-content: center;
-    margin-top: 0%;
-}
+
 
 .cabecalho {
     padding-top: 5px;
@@ -69,6 +69,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 5%;
 }
 
 
@@ -125,34 +126,34 @@ body{
 .conteiner2 {
     display: flex !important;
     flex-direction: row !important;
-    /* column-gap: 60px; */
-
+    column-gap: 60px;
+    justify-content: center;
 }
 
 .coluna1, .coluna2 {
-    align-items: center;
-    /* margin: auto; */
     display: flex;
     flex-direction: column;
     gap: 60px;
+    margin-bottom: 20px;
 }
+
+
+
 
 
 .information {
     min-width: 60%;
-    max-width: 90%;
-    /* margin-left: 25%;  */
-    /* padding-bottom: 10%; */
-    /* margin-top: 50px; */
-    height: 150px;
+    max-width: 34em;
+    height: 14em;
     background: #e9e3e3;
 }
 
 /* Segunda coluna - pequenos */
 
 .linha2 {
-    width: 250px;
-    height: 150px;
+    min-width: 15%;
+    max-width: 22em;
+    height: 14em;
     background: #e9e3e3;
 }
 
@@ -163,12 +164,11 @@ body{
 
 .imagem {
     text-align: center;
-    height: 100%;
 }
 
 .galery {
-    width: 200px;
-    height: 50%;
+    width: 70%;
+
 }
 
 
@@ -210,6 +210,7 @@ p {
 
  .texto {
     padding-left: 5%;
+    padding-right: 5%;
     color: black;
     font-size: 15px;
     background: #e9e3e3;
