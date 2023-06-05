@@ -3,6 +3,10 @@
     margin: 0%;
 }
 
+body{
+    background: #cccccc !important;
+}
+
 .lista {
     padding: 0px !important;
 }
@@ -11,7 +15,7 @@
     background: rgb(45, 45, 255);
     text-align: center;
     margin-bottom: 0;
-    min-width: 420px;
+    min-width: 220px;
 }
 
 /* .horarios li {
@@ -21,11 +25,13 @@
 
 .carroussels {
     display: flex;
+    background: white;
 }
 
 #carouselExampleControls, .carrossel {
     width: 50% !important;
 }
+
 
 .home {
     background-color: azure;
@@ -33,6 +39,12 @@
     padding-right: 5%;
     font-size: 12px;
     margin-bottom: 0%;
+}
+
+.testeando {
+    background: 0;
+    font-size: 15px;
+    padding: 0;
 }
 
 .links {
@@ -55,7 +67,7 @@
     margin-top: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -64,6 +76,7 @@
 .gg-microsoft {
     margin: 5px;
     color: rgb(42, 42, 250);
+    max-width: 647;
 }
 
 .gg-microsoft {
@@ -92,33 +105,55 @@
 .gg-microsoft::after {
     right: 0
 }
+
 /* icone grade  */
 
 
-.linha1, .linha2 {
+/* segundo container */
+
+
+/* Primeira coluna - largos */
+
+.segundo_container {
+    margin: auto;
+    height: 100%;
+    max-width: 80%;
+    background: white;
+}
+
+
+.conteiner2 {
+    display: flex !important;
+    flex-direction: row !important;
+    /* column-gap: 60px; */
+
+}
+
+.coluna1, .coluna2 {
+    align-items: center;
+    /* margin: auto; */
     display: flex;
-    justify-content: center;
-    height: 50%;
+    flex-direction: column;
+    gap: 60px;
 }
 
 
-/* conteiners largos */
-.information, .calendario {
-    padding-bottom: 10%;
-    margin-right: 50px;
-    margin-top: 50px;
-    width: 50%;
-    height: 50%;
-    background:#d8d5d4;
+.information {
+    min-width: 60%;
+    max-width: 90%;
+    /* margin-left: 25%;  */
+    /* padding-bottom: 10%; */
+    /* margin-top: 50px; */
+    height: 150px;
+    background: #e9e3e3;
 }
 
+/* Segunda coluna - pequenos */
 
-.coluna1 {
-    text-align: center; /* centralização da imagem */
-    margin-top: 50px;
-    margin-right: 5%;
-    width: 20%;
-    background: #d8d5d4;
+.linha2 {
+    width: 250px;
+    height: 150px;
+    background: #e9e3e3;
 }
 
 /* galeria e feed*/
@@ -126,25 +161,30 @@
     background: rgb(48, 46, 46);
 }
 
+.imagem {
+    text-align: center;
+    height: 100%;
+}
+
 .galery {
     width: 200px;
     height: 50%;
-    margin-bottom: 5%;
-} 
+}
+
 
 /* galeria e feed*/
 
 
-.rodape h6 {
+.rodape {
     background: rgb(48, 46, 46);
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 5%;
-    margin-bottom: 0;
 }
 
-
+h6 {
+    margin-bottom: 0;
+}
 /* formatações gerais */
 
 li {
@@ -162,18 +202,31 @@ p {
     padding-left: 10px;
 }
 
-h4, h5 {
+.color {
     padding-left: 5%;
-    font-family: Verdana, sans-serif;
-}
-
-.cor {
     color: gray;
     font-size: 15px;
 }
 
-.texto {
-    background: #d8d5d4;
+ .texto {
+    padding-left: 5%;
     color: black;
-    font-size: 16px;
+    font-size: 15px;
+    background: #e9e3e3;
+}
+
+@media screen and (max-width: 650px) {
+
+    .conteiner2 {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .coluna1, .coluna2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
