@@ -1,0 +1,106 @@
+/* corpo do site */
+body {
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* O menu */
+/* O menu começara escondido */
+.container {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    position: relative;
+    height: 40px !important;
+    width: 60px !important;
+    z-index: 1;
+    top: -50px !important;
+}
+
+img {
+    padding: 0% !important;
+    border-radius: 50% !important;
+    max-width: 50% !important;
+}
+
+.imagem {
+    margin-left: 0px !important;
+    text-align: center !important;
+}
+
+.navbar {
+    text-align: center;
+    position: relative;
+}
+
+.form-inline {
+    margin-left: 75px;
+}
+
+.menu {
+    background: #cccccc repeat left top;
+    left: -350px;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    width: 350px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+
+.icon-close {
+    cursor: pointer;
+    padding-right: 30px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.icon-close h1 {
+    cursor: pointer;
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.icon-menu {
+    cursor: pointer;
+    font-size: 30px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.icon-menu i {
+    margin-right: 5px;
+}
+
+.icon-menu p {
+    max-width: 79px;
+}
+
+.corpo {
+    margin-left: 40px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background: #9874db;
+}
