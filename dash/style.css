@@ -97,10 +97,23 @@ img {
     max-width: 79px;
 }
 
-.corpo {
-    margin-left: 40px;
-    width: 200px;
-    height: 60px;
+.box-info {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-info-single {
+    justify-content: center;
+    justify-content: space-between;
     border-radius: 10px;
-    background: #9874db;
+    display: flex;
+    margin: 0 10px;
+    padding: 30px;
+    width: 50%;
+}
+
+p {
+    font-size: 40px;
 }
