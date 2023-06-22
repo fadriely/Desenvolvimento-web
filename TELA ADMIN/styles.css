@@ -12,22 +12,47 @@
 
 .form-control {
 	width: 500px !important;
-	height: 29px;
+	height: 29px !important;
 	border-radius: 5px;
+	background: var(--grey);
+	box-sizing: unset;
 }
 
-.form-row {
-	background: #3C91E6;
-	height: 200px ;
-	width: 520px;
-	text-align: center;
+.form-control :hover {
 	
 }
 
-.col {
-	margin-bottom: 10px !important;
+
+
+.form-row {
+	/* background: #3C91E6; */
+	height: 200px;
+	width: 520px;
+	text-align: center;
+	background: var(--light);
 }
 
+.col {
+	/* margin-bottom: 25px !important; */
+	margin-top: 20PX;
+	outline: none !important;
+}
+
+.modal-title {
+	color: var(--dark);
+}
+
+.modal-content {
+	width: 550px !important;
+	height: 600px !important;
+	background: var(--light);
+}
+
+.identificação {
+	margin: 0px;
+	text-align: left;
+	color: var(--dark);
+}
 
 a {
 	text-decoration: none;
@@ -360,8 +385,6 @@ body {
 
 
 
-
-
 /* MAIN */
 #content main {
 	width: 100%;
@@ -386,22 +409,23 @@ body {
 	color: var(--dark);
 }
 
-#content main .head-title .left .breadcrumb {
+#content main .head-title .left .bread {
 	display: flex;
 	align-items: center;
 	grid-gap: 16px;
 }
 
-#content main .head-title .left .breadcrumb li {
+#content main .head-title .left .bread li {
 	color: var(--dark);
+
 }
 
-#content main .head-title .left .breadcrumb li a {
+#content main .head-title .left .bread li a {
 	color: var(--dark-grey);
 	pointer-events: none;
 }
 
-#content main .head-title .left .breadcrumb li a.active {
+#content main .head-title .left .bread li a.active {
 	color: var(--blue);
 	pointer-events: unset;
 }
@@ -410,6 +434,7 @@ body {
 	height: 36px;
 	padding: 0 16px;
 	border-radius: 36px;
+	border-color: white;
 	background: var(--blue);
 	color: var(--light);
 	display: flex;
